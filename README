@@ -1,0 +1,40 @@
+#################################################################################
+#									 README                                     #
+#																				#
+#					Artificial Neural Networks - Gardens of Heaven              #
+#							Sinan Unan & Kerem San 								#
+#																			    #
+#################################################################################
+							
+
+USAGE
+ 
+	Running:         python3 ann.py [iris-database]
+
+---------------------------------------------------------------------------------
+
+FILES
+
+	network_class.py: Contains the implementation of the NeuralNetwork class
+				     which contains attributes such as train_info, test_info,
+				     and weights etc.
+
+	ann.py:          Contains the code the for training the neural network,
+					 which uses forward and backward propagation, the code
+					 for testing the neural network, and the code for gettting
+					 user query.
+
+---------------------------------------------------------------------------------
+
+NOTES
+
+	- Our implementation trains the neural network until it reaches an accuracy
+	  level greater than 90%
+
+	- We used 35 as our Neural Network Epoch, and 0.7 as our Learning Rate
+
+	- After training the neural network, our program asks for user input to
+	  manually test the neural network and makes a prediction according to
+	  the user input
+
+---------------------------------------------------------------------------------
